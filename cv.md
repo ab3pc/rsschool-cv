@@ -11,17 +11,15 @@
 Junior Front-end developer. Interested in finding a position (opportunity to work remotely) where I can use and improve my professional skills.   
 
 ## Skills
-* HTML
-* CSS (Bootstrap, SASS/SCSS, BEM)
-* Git/GitHub
-* JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)
-* REACT / TYPESCRIPT / REDUX
+- [x] HTML
+- [x] CSS (Bootstrap, SASS/SCSS, BEM)
+- [x] Git/GitHub
+- [x] JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)
+- [x] REACT / TYPESCRIPT / REDUX
 
 ## Code Examples
 ```
-const func = () => {
-//need write some code!!!
-}
+const factorial = (num) => num === 1 ? 1 : num * factorial(num - 1);
 ```
 ## Education (master's degree)
 * **Kherson National Technical University**
