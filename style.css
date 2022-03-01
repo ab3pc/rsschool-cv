@@ -1,0 +1,128 @@
+:root {
+	--bg-body: #1D1E24;
+	--bg-main: #23262B;
+	--textcolor-header: #fff;
+	--textcolor-primary: #AEB0B8;
+  }
+  
+// var(--bg-main)
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+p {
+	margin: 0 0 10px;
+}
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none; /*маркировка списка*/
+}
+.img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	line-height: 1.4;
+	color: var(--textcolor-primary);
+	background-color: var(--bg-body);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/* Container
+==========================================*/
+.container {
+	width: 100%;
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/*Page
+========================================*/
+.page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.header-bg {
+	width: 100%;
+	height: 300px;
+	background-color: #ccc;
+}
+.header {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--bg-main);
+}
+.headr__left {
+	display: flex;
+	justify-content: center;
+}
+.header__photo {
+	border: 8px solid var(--bg-main);
+    border-radius: 30px;
+    box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 5%);
+    margin-top: -4.125rem;
+    overflow: hidden;
+   
+}
+.header__info {
+	margin-left: 24px;
+}
+.header__name {
+	color: var(--textcolor-header);
+	font-weight: 600;
+}
+.header__proff {
+	margin-bottom: 25px;
+	font-size: 14px;
+	font-weight: 400;
+
+	
+}
+
+.header__socials a{
+	text-decoration: none;
+	color: var(--textcolor-primary);
+}
+.header__socials i{
+	margin-right: 5px;
+	font-size: 24px;
+	transition:all .1s linear ;
+}
+.header__socials i:hover{
+	transform: scale(1.1);
+	color: var(--textcolor-header);
+}
+
+.footer {
+	padding: 40px 0;
+	background-color: #f9f9f9;
+	margin-top: auto;
+
+	background-image: url("../img/tire-track-left.png"), url("../img/tire-track-right.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left -90px bottom -84px, right -90px bottom -84px;
+}
