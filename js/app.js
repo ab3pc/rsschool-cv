@@ -2,6 +2,8 @@
 const aside = document.getElementById("sidebar");
 const header = document.getElementById("header");
 const headerBg = document.querySelector(".header-bg");
+const burger = document.querySelector("#nav_toggle");
+const sidebar = document.querySelector("#sidebar");
 
 const sticky = header.offsetHeight + headerBg.offsetHeight - 50;
 
@@ -63,6 +65,32 @@ else {
 
 window.addEventListener("scroll", changeLinkState);
 
+
+burger.addEventListener("click", () => {
+	burger.classList.toggle("active");
+	sidebar.classList.toggle("active");
+
+		//header.classList.toggle("active");
+		//nav.classList.toggle("active");
+});
+window.addEventListener('click', (e) => {
+	var isClickInside = sidebar.contains(e.target) || about.contains(e.target);
+	var isClickLink = btnAbout.contains(e.target) || btnWorks.contains(e.target) || btnEducation.contains(e.target);
+
+	console.log(sidebar.contains(e.target));
+
+	if (!isClickInside ) {
+		sidebar.classList.remove("active");
+		burger.classList.remove("active");
+	}
+	if (isClickLink ) {
+		sidebar.classList.remove("active");
+		burger.classList.remove("active");
+	}
+
+	
+
+})
 // const sections = document.querySelectorAll("section[id]");
 // window.addEventListener("scroll", navHighlighter);
 
