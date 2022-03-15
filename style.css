@@ -163,6 +163,7 @@ padding: 30px 0px;
 	margin-left: 24px;
 }
 .header__name {
+	font-size: 26px;
 	color: var(--textcolor-header);
 	font-weight: 600;
 }
@@ -355,6 +356,7 @@ z-index: 1;
 	text-align: justify;
 }
 .content__about-title {
+	text-transform: uppercase;
 	margin-bottom: 30px;
 	position: relative;
 	color: var(--textcolor-header);
