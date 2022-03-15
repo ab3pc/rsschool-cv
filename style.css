@@ -509,29 +509,29 @@ z-index: 1;
 
 
 .skills__item.works.one {
-	background: url('../img/work1.jpg') center no-repeat;
+	background: url('./img/work1.jpg') center no-repeat;
 	background-size: cover;
 	
 }
 
 .skills__item.works.two {
-	background: url('../img/work2.jpg') center no-repeat;
+	background: url('./img/work2.jpg') center no-repeat;
 	background-size: cover;
 }
 .skills__item.works.three {
-	background: url('../img/work3.jpg') center no-repeat;
+	background: url('./img/work3.jpg') center no-repeat;
 	background-size: cover;
 }
 .skills__item.works.four {
-	background: url('../img/work4.jpg') center no-repeat;
+	background: url('./img/work4.jpg') center no-repeat;
 	background-size: cover;
 }
 .skills__item.works.five {
-	background: url('../img/work5.jpg') center no-repeat;
+	background: url('./img/work5.jpg') center no-repeat;
 	background-size: cover;
 }
 .skills__item.works.six {
-	background: url('../img/work6.jpg') center no-repeat;
+	background: url('./img/work6.jpg') center no-repeat;
 	background-size: cover;
 }
 
